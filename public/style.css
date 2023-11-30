@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+h1 {
+  font-size: 80px;
+}
+
 nav {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -51,4 +55,29 @@ ul {
 li a {
   color: black;
   font-size: 20px;
+}
+
+/*main part*/
+main {
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  height: 100vh;
+  justify-content: center;
+  vertical-align: top;
+}
+
+.content_div {
+  margin: 0;
+  height: 500px;
+}
+
+.content_div p {
+  margin: 0;
+}
+
+img {
+  height: 500px;
+  margin-left: 100px;
+  border-radius: 10px;
 }
